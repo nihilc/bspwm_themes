@@ -1,0 +1,31 @@
+* {
+  bg        : $COLOR_BG;
+  fg        : $COLOR_FG;
+
+  n-black   : $COLOR_1_N;
+  n-red     : $COLOR_2_N;
+  n-green   : $COLOR_3_N;
+  n-yellow  : $COLOR_4_N;
+  n-blue    : $COLOR_5_N;
+  n-magenta : $COLOR_6_N;
+  n-cyan    : $COLOR_7_N;
+  n-white   : $COLOR_8_N;
+
+  b-black   : $COLOR_1_B;
+  b-red     : $COLOR_2_B;
+  b-green   : $COLOR_3_B;
+  b-yellow  : $COLOR_4_B;
+  b-blue    : $COLOR_5_B;
+  b-magenta : $COLOR_6_B;
+  b-cyan    : $COLOR_7_B;
+  b-white   : $COLOR_8_B;
+
+  d-black   : $COLOR_1_D;
+  d-red     : $COLOR_2_D;
+  d-green   : $COLOR_3_D;
+  d-yellow  : $COLOR_4_D;
+  d-blue    : $COLOR_5_D;
+  d-magenta : $COLOR_6_D;
+  d-cyan    : $COLOR_7_D;
+  d-white   : $COLOR_8_D;
+}

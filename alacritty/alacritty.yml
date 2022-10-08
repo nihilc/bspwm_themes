@@ -1,0 +1,56 @@
+# Alacritty config
+window:
+  dimensions:
+    columns: 140
+    lines: 36
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: true
+  opacity: 1
+
+mouse:
+  hide_when_typing: true
+
+cursor:
+  style:
+    shape: Block
+    blinking: on
+
+font:
+  normal:
+    family: 'JetBrains Mono Nerd Font'
+    style: Regular
+  bold:
+    family: 'JetBrains Mono Nerd Font'
+    style: Bold
+  italic:
+    family: 'JetBrains Mono Nerd Font'
+    style: Italic
+  bold_italic:
+    family: 'JetBrains Mono Nerd Font'
+    style: Bold Italic
+  size: 8
+
+colors:
+  primary:
+    background: '$COLOR_BG'
+    foreground: '$COLOR_FG'
+  normal:
+    black:    '$COLOR_1_N'
+    red:      '$COLOR_2_N'
+    green:    '$COLOR_3_N'
+    yellow:   '$COLOR_4_N'
+    blue:     '$COLOR_5_N'
+    magenta:  '$COLOR_6_N'
+    cyan:     '$COLOR_7_N'
+    white:    '$COLOR_8_N'
+  bright:
+    black:    '$COLOR_1_B'
+    red:      '$COLOR_2_B'
+    green:    '$COLOR_3_B'
+    yellow:   '$COLOR_4_B'
+    blue:     '$COLOR_5_B'
+    magenta:  '$COLOR_6_B'
+    cyan:     '$COLOR_7_B'
+    white:    '$COLOR_8_B'

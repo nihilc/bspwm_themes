@@ -1,0 +1,6 @@
+configuration {
+  modes: [ run, drun, window ];
+  disable-history: true;
+}
+@theme "dmenu"
+@import "colors"

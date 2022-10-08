@@ -1,0 +1,22 @@
+#!/bin/bash
+export COLOR_THEME=ocean
+export DOTFILES=$HOME/Templates/bspwm_themes
+# Select Color Theme
+source $DOTFILES/themes/$COLOR_THEME
+# Create dotfiles white new colors
+envsubst < $DOTFILES/alacritty/alacritty.yml > ~/.config/alacritty/alacritty.yml
+envsubst < $DOTFILES/bspwm/bspwmrc > ~/.config/bspwm/bspwmrc
+envsubst < $DOTFILES/dunst/dunstrc > ~/.config/dunst/dunstrc
+envsubst < $DOTFILES/polybar/colors.ini > ~/.config/polybar/colors.ini
+envsubst < $DOTFILES/rofi/colors.rasi > ~/.config/rofi/colors.rasi
+chmod +x $HOME/.config/bspwm/bspwmrc
+
+setxkbmap es &
+sxhkd &
+picom &
+redshift &
+feh --bg-scale --no-fehbg ~/Pictures/wall.jpg &
+
+dunst &
+polybar &
+exec bspwm
