@@ -13,7 +13,7 @@ configuration {
   padding           : 0;
   spacing           : 0;
   text-color        : @fg;
-  background-color  : @n-black;
+  background-color  : @bg;
 }
 window {
   width             : 100%;
