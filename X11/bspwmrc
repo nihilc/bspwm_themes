@@ -1,5 +1,5 @@
 #!/bin/bash
-export COLOR_THEME=ocean
+export COLOR_THEME=catppuccin-macchiato
 export DOTFILES=$HOME/Templates/bspwm_themes
 # Select Color Theme
 source $DOTFILES/themes/$COLOR_THEME
@@ -16,6 +16,7 @@ sxhkd &
 picom &
 redshift &
 feh --bg-scale --no-fehbg ~/Pictures/wall.jpg &
+xsetroot -cursor_name left_ptr &
 
 dunst &
 polybar &
